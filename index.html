@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CODE REVIEW</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>THE CODE REVIEW</h1>
+    </nav>
+    <header>
+        <div class="container">
+            <h2 id="sign-up">Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
+    </header>
+    
+        <hr class="line-break">
+   
+        <hr class="line-break2">
+    
+
+    <form action="index.html">
+        
+        <h2>Contact Information</h2>
+        <fieldset>
+            <label for="name" >Full Name</label>
+            <input type="text" id="name" name="user_name" placeholder="Required">
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="user_email" placeholder="Required">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="user_phone">
+            <label for="adress">Street Address</label>
+            <input type="text" id="adress" name="user_adress">
+            <label for="city">City</label>
+            <input type="text" id="city" name="user_city">
+            <label for="state">State</label>
+            <select id="state" name="user_state" >
+                
+                <option value=""  disabled selected hidden>Choose State</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Flordia">Flordia</option>
+                <option value="Ohio">Ohio</option>
+                <option value="California">California</option>
+                <option value="Texas">Texas</option>
+                <option value="Choose State">Kansas</option>
+           
+            </select>
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="user_zip">
+            <div class="move-hr">
+            <hr>
+            </div>  
+        </fieldset>
+
+        
+        <h2 id="new" >Newsletter</h2>
+        <fieldset>
+                <div class="news-color">
+                <p>Select the newsletters you would like to recieve</p>
+
+                <div class="align-buttons">
+                <input type="checkbox" id="html" value="html_news" name="html_news"><label class="html" for="html_news">HTML News</label><br>
+                <input type="checkbox" id="css" value="css_news" name="css_news"><label class="html" for="css_news">CSS News</label><br>
+                <input type="checkbox" id="jav" value="javascript_news" name="javascript_news"><label class="html" for="javascript_news">Javascript News</label><br>
+
+                <label id="newsletter" for="Newsletter">Newsletter format</label>
+                
+                </div>
+                <div class="align-buttons">
+                <input type="radio" id="html" value="html" name="html"><label class="html" for="html-1">HTML</label><br>
+                <input type="radio" id="plain-text" value="plain-text" name="plain"><label class="html" for="plain-text">Plain text</label>
+                </div>
+                <label id ="other-topics" for="topics">Other topics you'd like to hear about</label>
+                <textarea name="topics" id="topics" cols="30" rows="4"></textarea>
+
+                <div class="sign-up">
+                <button type="submit">Sign Up</button>
+                </div>
+                </div>
+        </fieldset>
+
+        <footer>
+            <span>Copyright The Code Review</span>
+        </footer>
+        
+
+    </form>
+
+</body>
+</html>
