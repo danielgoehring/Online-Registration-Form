@@ -27,8 +27,9 @@
 
     <form action="index.html">
         
-        <h2>Contact Information</h2>
+        <!-- <h2>Contact Information</h2> -->
         <fieldset>
+            <legend id="cont">Contact Information</legend>
             <label for="name" >Full Name</label>
             <input type="text" id="name" name="user_name" placeholder="Required">
             <label for="email">Email Address</label>
@@ -37,9 +38,9 @@
             <input type="text" id="phone" name="user_phone">
             <label for="adress">Street Address</label>
             <input type="text" id="adress" name="user_adress">
-            <label for="city">City</label>
+            <label id="c" for="city">City</label>
             <input type="text" id="city" name="user_city">
-            <label for="state">State</label>
+            <label id="s" for="state">State</label>
             <select id="state" name="user_state" >
                 
                 <option value=""  disabled selected hidden>Choose State</option>
@@ -51,16 +52,17 @@
                 <option value="Choose State">Kansas</option>
            
             </select>
-            <label for="zip">Zip Code</label>
+            <label id="z" for="zip">Zip Code</label>
             <input type="text" id="zip" name="user_zip">
             <div class="move-hr">
-            <hr>
+            <hr id="hr">
             </div>  
         </fieldset>
 
         
-        <h2 id="new" >Newsletter</h2>
+        <!-- <h2 id="new" >Newsletter</h2> -->
         <fieldset>
+            <legend id="newsletter">Newsletter</legend>
                 <div class="news-color">
                 <p>Select the newsletters you would like to recieve</p>
 
@@ -69,7 +71,7 @@
                 <input type="checkbox" id="css" value="css_news" name="css_news"><label class="html" for="css_news">CSS News</label><br>
                 <input type="checkbox" id="jav" value="javascript_news" name="javascript_news"><label class="html" for="javascript_news">Javascript News</label><br>
 
-                <label id="newsletter" for="Newsletter">Newsletter format</label>
+                <label id="newsletters" for="Newsletters">Newsletter format</label>
                 
                 </div>
                 <div class="align-buttons">
